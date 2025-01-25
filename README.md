@@ -68,6 +68,15 @@ tree-sitter-mql5/
 <summary>Ganerated by `tree-sitter generate`</summary>
 
 ```bash
+tree-sitter-mql5/
+└── src/  # Generated Code (C language)
+   ├── grammar.json
+   ├── node-types.json
+   ├── parser.c
+   └── tree_sitter/
+       ├── alloc.h
+       ├── array.h
+       └── parser.h
 ```
 </details>
 
@@ -75,49 +84,4 @@ tree-sitter-mql5/
 
 - `README.md`: This file.
 - `LICENSE`: License file.
-.
-├── .editorconfig
-├── .gitattributes
-├── .gitignore
-├── .ropeproject
-├── CMakeLists.txt
-├── Cargo.toml
-├── LICENSE
-├── Makefile
-├── Package.swift
-├── README.md
-├── binding.gyp
-├── bindings
-│   ├── c
-│   │   ├── tree-sitter-mql5.h
-│   │   └── tree-sitter-mql5.pc.in
-│   ├── go
-│   │   ├── binding.go
-│   │   └── binding_test.go
-│   ├── node
-│   │   ├── binding.cc
-│   │   ├── binding_test.js
-│   │   ├── index.d.ts
-│   │   └── index.js
-│   ├── python
-│   │   ├── tests
-│   │   │   └── test_binding.py
-│   │   └── tree_sitter_mql5
-│   │       ├── __init__.py
-│   │       ├── __init__.pyi
-│   │       ├── binding.c
-│   │       └── py.typed
-│   ├── rust
-│   │   ├── build.rs
-│   │   └── lib.rs
-│   └── swift
-│       ├── TreeSitterMql5
-│       │   └── mql5.h
-│       └── TreeSitterMql5Tests
-│           └── TreeSitterMql5Tests.swift
-├── go.mod
-├── grammar.js
-├── package.json
-├── pyproject.toml
-├── setup.py
-└── tree-sitter.json
+- `grammar.js`: Tree-sitter grammar file.
