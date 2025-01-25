@@ -21,45 +21,20 @@ tree-sitter-mql5/
 ├── .editorconfig # 'editorconfig' setting file
 ├── .gitattributes # linguist setting file for GitHub
 ├── .gitignore # ignore build files
-├── Makefile # (C) Makefile
-├── CMakeLists.txt # (C) CMake configuration file
 ├── Cargo.toml # (Rust) Cargo configuration file
-├── Package.swift # (Swift) Swift Package Manager configuration file
 ├── binding.gyp # (Node.js) Node.js binding configuration file
-├── go.mod # (Go) Go module configuration file
-├── pyproject.toml # (Python) Python package configuration file
-├── setup.py # (Python) Python package setup script
 ├── grammar.js # tree-sitter grammar file (Explain later)
 ├── package.json # Node.js package configuration file
 ├── tree-sitter.json # tree-sitter configuration file
 └── bindings/ # Binding files for each language
-    ├── c/
-    │   ├── tree-sitter-mql5.h
-    │   └── tree-sitter-mql5.pc.in
-    ├── go/
-    │   ├── binding.go
-    │   └── binding_test.go
     ├── node/
     │   ├── binding.cc
     │   ├── binding_test.js
     │   ├── index.d.ts
     │   └── index.js
-    ├── python/
-    │   ├── tests
-    │   │   └── test_binding.py
-    │   └── tree_sitter_mql5
-    │       ├── __init__.py
-    │       ├── __init__.pyi
-    │       ├── binding.c
-    │       └── py.typed
-    ├── rust/
-    │   ├── build.rs
-    │   └── lib.rs
-    └── swift/
-        ├── TreeSitterMql5
-        │   └── mql5.h
-        └── TreeSitterMql5Tests
-            └── TreeSitterMql5Tests.swift
+    └── rust/
+        ├── build.rs
+        └── lib.rs
 ```
 
 </details>
@@ -100,3 +75,4 @@ package-lock.json
 - `README.md`: This file.
 - `LICENSE`: License file.
 - `grammar.js`: Tree-sitter grammar file.
+- `.eslintrc.js`: ESLint configuration file.
