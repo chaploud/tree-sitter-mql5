@@ -80,6 +80,21 @@ tree-sitter-mql5/
 ```
 </details>
 
+<details>
+
+<summary>Ganerated by `npm install`</summary>
+
+**Note**: These files are ignored by `.gitignore` other than `package-lock.json`.
+
+```bash
+build/
+node_modules/
+target/
+package-lock.json
+```
+
+</details>
+
 ### Manually Edited Files
 
 - `README.md`: This file.
