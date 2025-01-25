@@ -6,19 +6,6 @@ build/
 prebuilds/
 node_modules/
 
-# Swift artifacts
-.build/
-
-# Go artifacts
-_obj/
-
-# Python artifacts
-.venv/
-dist/
-*.egg-info
-*.whl
-.ropeproject/
-
 # C artifacts
 *.a
 *.so
@@ -26,9 +13,6 @@ dist/
 *.dylib
 *.dll
 *.pc
-
-# Example dirs
-/examples/*/
 
 # Grammar volatiles
 *.wasm

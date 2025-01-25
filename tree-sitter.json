@@ -4,10 +4,7 @@
       "name": "mql5",
       "camelcase": "Mql5",
       "scope": "source.mql5",
-      "file-types": [
-        ".mqh",
-        ".mq5"
-      ],
+      "file-types": [".mqh", ".mq5"],
       "injection-regex": "^mql5$"
     }
   ],
@@ -27,11 +24,11 @@
     }
   },
   "bindings": {
-    "c": true,
-    "go": true,
+    "c": false,
+    "go": false,
     "node": true,
-    "python": true,
+    "python": false,
     "rust": true,
-    "swift": true
+    "swift": false
   }
 }
