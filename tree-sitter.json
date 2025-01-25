@@ -1,0 +1,37 @@
+{
+  "grammars": [
+    {
+      "name": "mql5",
+      "camelcase": "Mql5",
+      "scope": "source.mql5",
+      "file-types": [
+        ".mqh",
+        ".mq5"
+      ],
+      "injection-regex": "^mql5$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "MQL5 language grammar for the tree-sitter.",
+    "authors": [
+      {
+        "name": "chaploud",
+        "email": "kudou-s0camfci76w@outlook.com",
+        "url": "https://github.com/chaploud"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/chaploud/tree-sitter-mql5"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
